@@ -95,6 +95,19 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width:100%;
 }
+.text-content {
+    font-size: larger;
+    font-weight: 700;
+}
+.text-content ul {
+    margin-left: 50px;
+    color: peru;
+    font-weight: 900;
+}
+.text-content li span {
+    color: peru;
+    font-weight: 900;
+}
 
 .about-me{
     position: absolute;
@@ -125,10 +138,10 @@ nav ul li a:hover::after{
     color: peru;
 }
 .about-me-text{
-    margin-left: 49.5%;
+    margin-left: 49%;
     margin-top: -16%;
     color: #ff004f;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 
@@ -144,6 +157,7 @@ nav ul li a:hover::after{
     font: 'Times New Roman';
     margin-left:46.5%;
     color: rgb(165, 58, 42);
+    margin-top: 3%;
     font-style:inherit;
     font-weight: bolder;
 
@@ -154,7 +168,7 @@ nav ul li a:hover::after{
     padding: auto;
     padding-left: 10px;
     border: 10px solid peru;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left: 8%;
     border-radius: 2%;
     box-shadow: 0 2px 16px black;
@@ -165,6 +179,7 @@ nav ul li a:hover::after{
     font-style: inherit;
     line-height: 2;
     font: Times;
+    
 }
 .projects{
     position: absolute;
@@ -175,20 +190,22 @@ nav ul li a:hover::after{
 .tabContainer .buttonContainer{
     margin-left: 55%;
     margin-top: 7%;
+
 }
 .tabContainer .buttonContainer button{
     font-size: 24px;
+    font-weight: 30px;
     border: none;
     position: relative;
     background: none;
     color: #ff004f;
     outline: none;
     cursor: pointer;
-    
-    padding: 10px 20px;
+    margin-left: auto;
+    padding: 30px;
 }
 .tabContainer .buttonContainer button:hover{
-   background-color: rgba(205, 134, 63, 0.691);
+   background-color: rgba(205, 134, 63, 0.358);
 }
 
 
