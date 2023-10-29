@@ -1,12 +1,12 @@
 *{
         margin: 0;
         padding: 0;
-        font-family: 'Times New Roman', 'Times New Roman', Times;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         box-sizing: border-box;
         background-position-x: none;
 }
 body{
-    background-color: bisque;
+    background-color: whitesmoke;
 }
 #header{
     width: 100%;
@@ -25,14 +25,14 @@ body{
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.361);
 }
 .linkin{
-    color: #ff004f;
+    color:black;
     font-size: medium;
     margin-top: -25px;
     margin-left: 200px;
     position: absolute;
 }
 .email{
-    color: #ff004f;
+    color: black;
     font-size: medium;
     margin-top: -25px;
     margin-left: 400px;
@@ -40,7 +40,7 @@ body{
     
 }
 .resume{
-    color: #ff004f;
+    color: black;
     font-size: medium;
     margin-top: -25px;
     margin-left: 1230px;
@@ -48,7 +48,7 @@ body{
 }
 .github{
     position: absolute;
-    color: #ff004f;
+    color: black;
     font-size: medium;
     margin-top: -25px;
     margin-left: 1430px;
@@ -140,7 +140,7 @@ nav ul li a:hover::after{
 .about-me-text{
     margin-left: 49%;
     margin-top: -16%;
-    color: #ff004f;
+    color:rgba(0, 0, 0, 0.752);
     line-height: 2;
 }
 
@@ -174,11 +174,13 @@ nav ul li a:hover::after{
     box-shadow: 0 2px 16px black;
 }
 .tab-content{
-    color: #ff004f;
+    color: black;
     font-size: large;
     font-style: inherit;
     line-height: 2;
     font: Times;
+    padding: 10px;
+    font-weight: 500;
     
 }
 .projects{
@@ -208,7 +210,10 @@ nav ul li a:hover::after{
    background-color: rgba(205, 134, 63, 0.358);
 }
 
-
+.spaces{
+    display:inline-block; 
+    margin-right: 300px;
+}
 
 /* .tab-titles ::after{
     width: 0%;
